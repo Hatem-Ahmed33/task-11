@@ -1,0 +1,24 @@
+SQL JOINs
+
+SQL JOINs are used to combine data from two or more tables based on a related column between them.
+
+The most common types of JOINs are:
+
+INNER JOIN: Returns only the records that have matching values in both tables.
+LEFT JOIN: Returns all records from the left table and the matching records from the right table.
+RIGHT JOIN: Returns all records from the right table and the matching records from the left table.
+
+JOINs are useful when we need to get related information stored in different tables.
+
+Difference Between Primary Key and Unique Key
+
+A Primary Key is used to uniquely identify each record in a table. It cannot contain duplicate values or NULL values. A table can have only one Primary Key.
+
+A Unique Key is used to make sure that values in a column are not duplicated. A table can have more than one Unique Key.
+
+For example, in a Users table, the id can be a Primary Key, while the email can be a Unique Key.
+
+In short:
+
+Primary Key → Identifies each record.
+Unique Key → Prevents duplicate values.
